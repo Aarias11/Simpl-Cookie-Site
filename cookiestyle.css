@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+border-bottom: 1px solid white;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+
+.nav-link li {
+    list-style: none;
+    
+}
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    
+
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    opacity: .9;
+}
+
+
+.intro {
+    font-family: 'Oswald', sans-serif;
+    font-size: 295px;
+    opacity: .6;
+}
+
+.main-header {
+    /* border: 1px solid coral; */
+    height: 400px;
+    text-align: center;
+    
+}
+
+.intro {
+    color: white
+    
+
+}
+
+
+.cookie-pic {
+    border: 1px solid white;
+    height: 300px;
+    width: 350px;
+    background-image: url("https://images.unsplash.com/photo-1519682214708-973477a2529a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    margin-left: 300px;
+    transform: translateY(-70px);
+    opacity: .8;
+}
+
+
+.pic {
+
+    
+}
+
+.small-intro {
+    display: flex;
+    
+    width: 400px;
+    height: 150px;
+    transform: translateX(500px);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    
+
+}
+
+
+
+.smaller-intro {
+    display: flex;
+    
+    width: 380px;
+    height: 100px;
+    transform: translateX(500px);
+    color: white;
+    font-size: 16px;
+    transform: translateY();
+
+}
+
